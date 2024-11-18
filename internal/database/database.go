@@ -4,5 +4,5 @@ import "io"
 
 type IDatabase interface {
 	io.Writer
-	io.Reader
+	//io.Reader
 }

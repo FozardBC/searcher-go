@@ -10,7 +10,7 @@ func Start() {
 
 	p := processor.New()
 
-	word := "intl"
+	//word := "intl"
 	urls := []string{"https://google.com"}
 	var err error
 
@@ -34,6 +34,6 @@ func Start() {
 
 	}
 
-	p.FindUrls(word)
+	p.Save()
 
 }
